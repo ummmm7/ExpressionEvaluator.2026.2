@@ -30,8 +30,11 @@
         {
             components = new System.ComponentModel.Container();
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackColor = Color.Black;
+            ClientSize = new Size(440, 400);
+            MinimumSize = new Size(360, 380);
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Functions Evaluator";
         }
 
         #endregion
